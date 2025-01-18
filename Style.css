@@ -1,0 +1,16 @@
+body{
+    background-color: #212121;
+}
+
+.main-button {
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    background-color: #F6B3C6;
+    padding: 15px 53px;
+    cursor: pointer;
+}
+.imagem-main {
+    border-radius: 16px;
+    box-shadow: 18px 19px #F6B3C6;
+}

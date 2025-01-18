@@ -1,16 +1,19 @@
 body{
-    background-color: #212121;
+    background-color: black;
 }
 
-.main-button {
+.main-button {  
+    font-size: 24px;
     text-decoration: none;
     color: black;
     border-radius: 8px;
     background-color: #F6B3C6;
-    padding: 15px 53px;
+    padding: 21.5px 53px;
     cursor: pointer;
+    margin-left: 50px;
 }
 .imagem-main {
     border-radius: 16px;
     box-shadow: 18px 19px #F6B3C6;
+    margin-left: 70px;
 }

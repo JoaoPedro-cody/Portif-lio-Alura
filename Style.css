@@ -3,12 +3,10 @@ body{
     color: #F6F6F6;
     height: 100vh;
     box-sizing: border-box ;
-    display: flex;
-    width: 100%;
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,9 +15,8 @@ body{
 .wrapper-conteudo {
     width: 615px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    gap: 40px;
 }
 
 .titulo-main {
@@ -34,25 +31,42 @@ body{
 
 .buttons {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
         
 .main-button {  
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-    border-radius: 8px;
     background-color: #F6B3C6;
-    padding: 21.5px 53px;
-    cursor: pointer;
-    margin-left: 50px;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.2s ease-in-out;
 }
+
 .imagem-main {
     border-radius: 16px;
     box-shadow: 18px 19px #F6B3C6;
     margin-left: 70px;
 }
+
+.hoverd{
+    transition: transform 0.2s ease-in-out;
+}
+
+.hoverd:hover{
+    transform: scale(1.1);
+}
+
+.main-button:hover{
+    background-color: #E4FDE1;
+    transform: scale(1.1);
+}
+
 .marca-texto {
     color: #F6B3C6;
 }

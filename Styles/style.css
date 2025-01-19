@@ -26,7 +26,7 @@ body{
 .cabecalho-link {
     font-family: var(--fonte-secundaria);
     color: var(--cor-tercearia);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -45,19 +45,19 @@ body{
 }
 
 .titulo-main {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .paragrafo-main {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
 .subtitulo-main {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .buttons {
@@ -81,7 +81,7 @@ body{
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -108,7 +108,7 @@ body{
 .rodape-main {
     font-family: var(--fonte-secundaria);
     color: var(--cor-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     background-color: var(--cor-tercearia);
     display: flex;
     flex-direction: column;
